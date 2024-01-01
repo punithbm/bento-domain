@@ -16,5 +16,6 @@ yarn dev
 
 ## ENV Variables
 ```
+PORT=443
 BENTO_USERNAME=your_bento_username
 ```

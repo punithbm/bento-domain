@@ -1,4 +1,4 @@
-# Node.js Express Proxy for Bento.me
+# Bento.me Custom Domain - Node.js Express Proxy
 
 This application sets up a Node.js Express server that acts as a reverse proxy for Bento.me. It allows you to access Bento.me content under a custom path or domain.
 

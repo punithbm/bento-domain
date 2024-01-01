@@ -1,0 +1,23 @@
+{
+  "name": "bento-domain",
+  "version": "1.0.0",
+  "description": "Reverse proxy for Bento.me",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/http-proxy-middleware": "^1.0.0",
+    "@types/node": "^20.10.6",
+    "ts-node": "^10.4.0",
+    "typescript": "^5.3.3"
+  }
+}
